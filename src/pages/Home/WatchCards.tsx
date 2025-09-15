@@ -48,6 +48,7 @@ function WatchCards() {
         >
           <ChevronRight size={24} />
         </button>
+        
 
         <div
           ref={scrollRef}
@@ -114,6 +115,9 @@ function WatchCards() {
             </div>
           ))}
         </div>
+      </div>
+      <div>
+        <h1>all cards</h1>
       </div>
     </>
   );
