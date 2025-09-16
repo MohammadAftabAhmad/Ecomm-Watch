@@ -1,7 +1,9 @@
 import Navbar from "./components/Navbar";
 import HeroPage from "./pages/Home/HeroPage";
+import MwCard from "./pages/Home/Mwcard";
 
 import WatchCards from "./pages/Home/WatchCards";
+
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
    <Navbar/>
    <HeroPage/>
    <WatchCards/>
+   <MwCard/>
     </>
   )
 }

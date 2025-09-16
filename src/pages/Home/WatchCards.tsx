@@ -103,7 +103,7 @@ function WatchCards() {
             <div className="flex-none" key={id}>
               <div className="bg-slate-100 rounded-lg">
                 <img
-                  className="h-96 w-80 hover:scale-105 duration-300"
+                  className="h-full w-80 hover:scale-105 duration-300"
                   src={w.img}
                   alt={w.name}
                 />
@@ -116,9 +116,7 @@ function WatchCards() {
           ))}
         </div>
       </div>
-      <div>
-        <h1>all cards</h1>
-      </div>
+      
     </>
   );
 }
