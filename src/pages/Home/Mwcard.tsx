@@ -1,7 +1,7 @@
 
 import img from "../../assets/images/herom.jpeg"
 import img2 from "../../assets/images/herow.jpeg"
-import { NewArrivals } from "../../data/watchData"
+import {  Trending } from "../../data/watchData"
 
 function MwCard() {
 
@@ -33,7 +33,7 @@ function MwCard() {
 
          </div>
          <div className="px-20  grid gap-6 grid-cols-4">
-          {NewArrivals.map((w,id)=>(
+          {Trending.map((w,id)=>(
             <div key={id}>
               <div className="bg-slate-100 rounded-lg">
               <img className=" rounded-md hover:scale-105 w-80 duration-300 h-96" src={w.img} alt="" /></div>

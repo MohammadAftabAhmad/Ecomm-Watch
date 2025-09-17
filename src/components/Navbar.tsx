@@ -1,3 +1,4 @@
+import  { Link } from "react-router-dom"
 
 
 function Navbar() {
@@ -11,18 +12,18 @@ function Navbar() {
 
     {/* Right side - Extra menu */}
     <ul className="flex gap-4 items-center">
-      <li className="p-2 hover:cursor-pointer">Home</li>
-      <li className="p-2 hover:cursor-pointer">Men</li>
-      <li className="p-2 hover:cursor-pointer">Women</li>
+      <li  className="p-2 hover:cursor-pointer"><Link to="/" >Home</Link>  </li>
+      <li  className="p-2 hover:cursor-pointer"><Link to="/men" >Men </Link></li>
+       <li className="p-2 hover:cursor-pointer"><Link  to ="/women">Women</Link> </li>
     </ul>
   </div>
 
   {/* Middle menu - perfectly centered */}
   <ul className="flex gap-6 items-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-    <li className="p-2 hover:cursor-pointer">Home</li>
-    <li className="p-2 hover:cursor-pointer">Men</li>
-    <li className="p-2 hover:cursor-pointer">Women</li>
-    <li className="p-2 hover:cursor-pointer">Collections</li>
+    <li className="p-2 hover:cursor-pointer"><Link to="/">Home</Link></li>
+    <li className="p-2 hover:cursor-pointer"><Link to="/men">Men</Link> </li>
+    <li className="p-2 hover:cursor-pointer"><Link to="/">Women</Link> </li>
+    <li className="p-2 hover:cursor-pointer"><Link to="/">Collections</Link> </li>
   </ul>
 </nav>
 

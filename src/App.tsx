@@ -1,8 +1,9 @@
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import HeroPage from "./pages/Home/HeroPage";
-import MwCard from "./pages/Home/Mwcard";
+// import HeroPage from "./pages/Home/HeroPage";
+// import MwCard from "./pages/Home/Mwcard";
 
-import WatchCards from "./pages/Home/WatchCards";
+// import WatchCards from "./pages/Home/WatchCards";
 
 
 
@@ -11,9 +12,7 @@ function App() {
     <>
    {/* <Register/> */}
    <Navbar/>
-   <HeroPage/>
-   <WatchCards/>
-   <MwCard/>
+   <Outlet />
     </>
   )
 }

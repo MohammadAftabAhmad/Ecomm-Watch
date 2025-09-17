@@ -59,6 +59,7 @@ function WatchCards() {
             <div className="flex-none" key={id}>
               <div className="bg-slate-100 rounded-lg">
                 <img
+                  loading="lazy"
                   className="h-96 w-80 hover:scale-105 duration-300"
                   src={w.img}
                   alt={w.name}
@@ -103,6 +104,7 @@ function WatchCards() {
             <div className="flex-none" key={id}>
               <div className="bg-slate-100 rounded-lg">
                 <img
+                   loading="lazy"
                   className="h-full w-80 hover:scale-105 duration-300"
                   src={w.img}
                   alt={w.name}

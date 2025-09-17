@@ -17,6 +17,47 @@ import imgm9 from "../assets/images/BestSeller/titanb9.png";
 
 import imgw1 from "../assets/images/BestSeller/titanw1.png";
 
+import imgt1 from "../assets/images/Trending/Twatch1.png";
+import imgt2 from "../assets/images/Trending/Twatch2.png";
+import imgt3 from "../assets/images/Trending/Twatch3.png";
+import imgt4 from "../assets/images/Trending/Twatch4.png";
+import imgt5 from "../assets/images/Trending/Twatch5.png";
+// import imgt6 from "../assets/images/Trending/Twatch6.png";
+import imgt7 from "../assets/images/Trending/Twatch7.png";
+import imgt8 from "../assets/images/Trending/Twatch8.png";
+import imgt9 from "../assets/images/Trending/Twatch9.png";
+import imgt10 from "../assets/images/Trending/Twatch10.png";
+import imgt11 from "../assets/images/Trending/Twatch11.png";
+import imgt12 from "../assets/images/Trending/Twatch12.png";
+import imgt13 from "../assets/images/Trending/Twatch13.png";
+import imgt14 from "../assets/images/Trending/Twatch14.png";
+import imgt15 from "../assets/images/Trending/Twatch15.png";
+import imgt16 from "../assets/images/Trending/Twatch16.png";
+
+export const Trending=[
+  { img: imgt1, name: "Titan1", price: "₹5000" },
+  { img: imgt2, name: "Titan2", price: "₹6000" },
+  { img: imgt3, name: "Titan3", price: "₹7000" },
+  { img: imgt4, name: "Titan4", price: "₹8000" },
+  { img: imgt5, name: "Titan5", price: "₹9000" },
+  { img: imgt14, name: "Titan1", price: "₹5000" },
+  { img: imgt7, name: "Titan2", price: "₹6000" },
+  { img: imgt8, name: "Titan3", price: "₹7000" },
+  { img: imgt9, name: "Titan4", price: "₹8000" },
+  { img: imgt10, name: "Titan5", price: "₹9000" },
+  { img: imgt11, name: "Titan1", price: "₹5000" },
+  { img: imgt12, name: "Titan2", price: "₹6000" },
+  { img: imgt13, name: "Titan3", price: "₹7000" },
+  { img: imgt14, name: "Titan4", price: "₹8000" },
+  { img: imgt15, name: "Titan5", price: "₹9000" },
+  { img: imgt16, name: "Titan1", price: "₹5000" },
+  { img: imgt2, name: "Titan2", price: "₹6000" },
+  { img: imgt3, name: "Titan3", price: "₹7000" },
+  { img: imgt4, name: "Titan4", price: "₹8000" },
+  { img: imgt5, name: "Titan5", price: "₹9000" },
+
+]
+
 export const NewArrivals = [
   { img: img1, name: "Titan1", price: "₹5000" },
   { img: img2, name: "Titan2", price: "₹6000" },
