@@ -18,7 +18,7 @@ const router= createBrowserRouter([
         element: <MenPage />,
       },
       {
-        path: "/watchDetails/:id",
+        path: "/:gender/:id",
         element: <DetailsHero/>
       }
 
