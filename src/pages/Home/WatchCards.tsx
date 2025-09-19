@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useRef, useState } from "react";
 import { NewArrivals, MenWatches, WomenWatches } from "../../data/watchData";
+import { Link } from "react-router-dom";
 
 function WatchCards() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -60,7 +61,7 @@ function WatchCards() {
               <div className="bg-slate-100 rounded-lg">
                 <img
                   loading="lazy"
-                  className="h-96 w-80 hover:scale-105 duration-300"
+                  className="h-96 w-full hover:scale-105 duration-300"
                   src={w.img}
                   alt={w.name}
                 />
@@ -100,8 +101,13 @@ function WatchCards() {
           className="flex overflow-x-auto scroll-hidden gap-6 mt-5 mx-20 overflow-hidden mb-10"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
-          {watchesToShow.map((w, id) => (
-            <div className="flex-none" key={id}>
+          {watchesToShow.map((w) => (
+            <Link
+              to={`watchDetails/${w.id}`}
+              key={w.id}
+              className="min-w-80 max-w-[450px] block"
+             >
+            <div className="flex-none">
               <div className="bg-slate-100 rounded-lg">
                 <img
                    loading="lazy"
@@ -115,9 +121,12 @@ function WatchCards() {
                 <p>{w.price}</p>
               </div>
             </div>
+             </Link>
           ))}
+         
         </div>
       </div>
+      
       
     </>
   );
