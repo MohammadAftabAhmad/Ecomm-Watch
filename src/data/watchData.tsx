@@ -171,92 +171,168 @@ import imgw6c from "../assets/images/BestSeller/w6c.jpeg";
 import imgw6d from "../assets/images/BestSeller/w6d.jpeg";
 
 
+//            TRENDING WATCHES...........................
+
+import imgt1   from "../assets/images/Trending/tr1.jpeg"
+import imgt1a from "../assets/images/Trending/tr1a.jpeg"
+import imgt1b from "../assets/images/Trending/tr1b.jpeg"
+import imgt1c from "../assets/images/Trending/tr1c.jpeg"
+import imgt1d from "../assets/images/Trending/tr1d.jpeg"
+
+import imgt2   from "../assets/images/Trending/tr2.jpeg"
+import imgt2a from "../assets/images/Trending/tr2a.jpeg"
+import imgt2b from "../assets/images/Trending/tr2b.jpeg"
+import imgt2c from "../assets/images/Trending/tr2c.jpeg"
+import imgt2d from "../assets/images/Trending/tr2d.jpeg"
+
+import imgt3  from "../assets/images/Trending/tr3.jpeg"
+import imgt3a from "../assets/images/Trending/tr3a.jpeg"
+import imgt3b from "../assets/images/Trending/tr3b.jpeg"
+import imgt3c from "../assets/images/Trending/tr3c.jpeg"
+import imgt3d from "../assets/images/Trending/tr3d.jpeg"
+
+import imgt4  from "../assets/images/Trending/tr4.jpeg"
+import imgt4a from "../assets/images/Trending/tr4a.jpeg"
+import imgt4b from "../assets/images/Trending/tr4b.jpeg"
+import imgt4c from "../assets/images/Trending/tr4c.jpeg"
+import imgt4d from "../assets/images/Trending/tr4d.jpeg"
+
+import imgt5  from "../assets/images/Trending/tr5.jpeg"
+import imgt5a from "../assets/images/Trending/tr5a.jpeg"
+import imgt5b from "../assets/images/Trending/tr5b.jpeg"
+import imgt5c from "../assets/images/Trending/tr5c.jpeg"
+import imgt5d from "../assets/images/Trending/tr5d.jpeg"
+
+import imgt6  from "../assets/images/Trending/tr6.jpeg"
+import imgt6a from "../assets/images/Trending/tr6a.jpeg"
+import imgt6b from "../assets/images/Trending/tr6b.jpeg"
+import imgt6c from "../assets/images/Trending/tr6c.jpeg"
+import imgt6d from "../assets/images/Trending/tr6d.jpeg"
+
+import imgt7  from "../assets/images/Trending/tr7.jpeg"
+import imgt7a from "../assets/images/Trending/tr7a.jpeg"
+import imgt7b from "../assets/images/Trending/tr7b.jpeg"
+import imgt7c from "../assets/images/Trending/tr7c.jpeg"
+import imgt7d from "../assets/images/Trending/tr7d.jpeg"
+
+import imgt8  from "../assets/images/Trending/tr8.jpeg"
+import imgt8a from "../assets/images/Trending/tr8a.jpeg"
+import imgt8b from "../assets/images/Trending/tr8b.jpeg"
+import imgt8c from "../assets/images/Trending/tr8c.jpeg"
+import imgt8d from "../assets/images/Trending/tr8d.jpeg"
+
+import imgt9  from "../assets/images/Trending/tr9.jpeg"
+import imgt9a from "../assets/images/Trending/tr9a.jpeg"
+import imgt9b from "../assets/images/Trending/tr9b.jpeg"
+import imgt9c from "../assets/images/Trending/tr9c.jpeg"
+import imgt9d from "../assets/images/Trending/tr9d.jpeg"
+
+import imgt10  from "../assets/images/Trending/tr10.jpeg"
+import imgt10a from "../assets/images/Trending/tr10a.jpeg"
+import imgt10b from "../assets/images/Trending/tr10b.jpeg"
+import imgt10c from "../assets/images/Trending/tr10c.jpeg"
+import imgt10d from "../assets/images/Trending/tr10d.jpeg"
+
+import imgt11  from "../assets/images/Trending/tr11.jpeg"
+import imgt11a from "../assets/images/Trending/tr11a.jpeg"
+import imgt11b from "../assets/images/Trending/tr11b.jpeg"
+import imgt11c from "../assets/images/Trending/tr11c.jpeg"
+import imgt11d from "../assets/images/Trending/tr11d.jpeg"
+
+import imgt12  from "../assets/images/Trending/tr12.jpeg"
+import imgt12a from "../assets/images/Trending/tr12a.jpeg"
+import imgt12b from "../assets/images/Trending/tr12b.jpeg"
+import imgt12c from "../assets/images/Trending/tr12c.jpeg"
+import imgt12d from "../assets/images/Trending/tr12d.jpeg"
 
 
 
 
 
-import imgt1 from "../assets/images/Trending/Twatch1.png";
-import imgt2 from "../assets/images/Trending/Twatch2.png";
-import imgt3 from "../assets/images/Trending/Twatch3.png";
-import imgt4 from "../assets/images/Trending/Twatch4.png";
-import imgt5 from "../assets/images/Trending/Twatch5.png";
-// import imgt6 from "../assets/images/Trending/Twatch6.png";
-import imgt7 from "../assets/images/Trending/Twatch7.png";
-import imgt8 from "../assets/images/Trending/Twatch8.png";
-import imgt9 from "../assets/images/Trending/Twatch9.png";
-import imgt10 from "../assets/images/Trending/Twatch10.png";
-import imgt11 from "../assets/images/Trending/Twatch11.png";
-import imgt12 from "../assets/images/Trending/Twatch12.png";
-import imgt13 from "../assets/images/Trending/Twatch13.png";
-import imgt14 from "../assets/images/Trending/Twatch14.png";
-import imgt15 from "../assets/images/Trending/Twatch15.png";
-import imgt16 from "../assets/images/Trending/Twatch16.png";
 
-export const Trending=[
-  { img: imgt1, name: "Titan1", price: "₹5000" },
-  { img: imgt2, name: "Titan2", price: "₹6000" },
-  { img: imgt3, name: "Titan3", price: "₹7000" },
-  { img: imgt4, name: "Titan4", price: "₹8000" },
-  { img: imgt5, name: "Titan5", price: "₹9000" },
-  { img: imgt14, name: "Titan1", price: "₹5000" },
-  { img: imgt7, name: "Titan2", price: "₹6000" },
-  { img: imgt8, name: "Titan3", price: "₹7000" },
-  { img: imgt9, name: "Titan4", price: "₹8000" },
-  { img: imgt10, name: "Titan5", price: "₹9000" },
-  { img: imgt11, name: "Titan1", price: "₹5000" },
-  { img: imgt12, name: "Titan2", price: "₹6000" },
-  { img: imgt13, name: "Titan3", price: "₹7000" },
-  { img: imgt14, name: "Titan4", price: "₹8000" },
-  { img: imgt15, name: "Titan5", price: "₹9000" },
-  { img: imgt16, name: "Titan1", price: "₹5000" },
-  { img: imgt2, name: "Titan2", price: "₹6000" },
-  { img: imgt3, name: "Titan3", price: "₹7000" },
-  { img: imgt4, name: "Titan4", price: "₹8000" },
-  { img: imgt5, name: "Titan5", price: "₹9000" },
 
-]
+// import imgt1 from "../assets/images/Trending/Twatch1.png";
+// import imgt2 from "../assets/images/Trending/Twatch2.png";
+// import imgt3 from "../assets/images/Trending/Twatch3.png";
+// import imgt4 from "../assets/images/Trending/Twatch4.png";
+// import imgt5 from "../assets/images/Trending/Twatch5.png";
+// // import imgt6 from "../assets/images/Trending/Twatch6.png";
+// import imgt7 from "../assets/images/Trending/Twatch7.png";
+// import imgt8 from "../assets/images/Trending/Twatch8.png";
+// import imgt9 from "../assets/images/Trending/Twatch9.png";
+// import imgt10 from "../assets/images/Trending/Twatch10.png";
+// import imgt11 from "../assets/images/Trending/Twatch11.png";
+// import imgt12 from "../assets/images/Trending/Twatch12.png";
+// import imgt13 from "../assets/images/Trending/Twatch13.png";
+// import imgt14 from "../assets/images/Trending/Twatch14.png";
+// import imgt15 from "../assets/images/Trending/Twatch15.png";
+// import imgt16 from "../assets/images/Trending/Twatch16.png";
+
+
   
 
 export const NewArrivals = [
 
-  { id:1, img: imgn1, name: "Titan Men 1", price: "₹5000", thumbnails:[imgn1a, imgn1b, imgn1c, imgn1d] },
-  { id:2, img: imgn6, name: "Titan Men 2", price: "₹6000", thumbnails:[imgn6a, imgn6b, imgn6c, imgn6d] },
-  { id:3, img: imgn2, name: "Titan Men 3", price: "₹6000", thumbnails:[imgn2a, imgn2b, imgn2c] },
-  { id:4, img: imgn8, name: "Titan Men 4", price: "₹6000", thumbnails:[imgn8a, imgn8b, imgn8c, imgn8d] },
-  { id:5, img: imgn3, name: "Titan Men 5", price: "₹6000", thumbnails:[imgn3a, imgn3b, imgn3c, imgn3d] },
-  { id:6, img: imgn7, name: "Titan Men 6", price: "₹6000", thumbnails:[imgn7a, imgn7b, imgn7c, imgn7d] },
-  { id:7, img: imgn4, name: "Titan Men 7", price: "₹6000", thumbnails:[imgn4a, imgn4b, imgn4c, imgn4d] },
-  { id:8, img: imgn9, name: "Titan Men 8", price: "₹6000", thumbnails:[imgn9a, imgn9b, imgn9c, imgn9d] },
-  { id:9, img: imgn5, name: "Titan Men 9", price: "₹6000", thumbnails:[imgn5a, imgn5b, imgn5c, imgn5d] },
-  { id:10, img: imgn10, name: "Titan Men 9", price: "₹6000", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
+  { id:1, img: imgn1, name: "Titan classic", price: "₹3500", thumbnails:[imgn1a, imgn1b, imgn1c, imgn1d] },
+  { id:2, img: imgn6, name: "Fastrack", price: "₹2399", thumbnails:[imgn6a, imgn6b, imgn6c, imgn6d] },
+  { id:3, img: imgn2, name: "Titan Edge", price: "₹2499", thumbnails:[imgn2a, imgn2b, imgn2c] },
+  { id:4, img: imgn8, name: "Titan slick", price: "₹1999", thumbnails:[imgn8a, imgn8b, imgn8c, imgn8d] },
+  { id:5, img: imgn3, name: "Titan Edge", price: "₹3000", thumbnails:[imgn3a, imgn3b, imgn3c, imgn3d] },
+  { id:6, img: imgn7, name: "Fastrack", price: "₹2499", thumbnails:[imgn7a, imgn7b, imgn7c, imgn7d] },
+  { id:7, img: imgn4, name: "Fastrack mdl", price: "₹2399", thumbnails:[imgn4a, imgn4b, imgn4c, imgn4d] },
+  { id:8, img: imgn9, name: "Titan wdl", price: "₹3000", thumbnails:[imgn9a, imgn9b, imgn9c, imgn9d] },
+  { id:9, img: imgn5, name: "Fastrack ", price: "₹2500", thumbnails:[imgn5a, imgn5b, imgn5c, imgn5d] },
+  { id:10, img: imgn10, name: "Raga", price: "₹4000", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
   
 ];
 
 export const MenWatches = [
-  { id:11, img: imgm1, name: "Titan Men 1", price: "₹5000", thumbnails:[imgm1a, imgm1b, imgm1c, imgm1d] },
-  { id:12, img: imgm2, name: "Titan Men 2", price: "₹6000", thumbnails:[imgm2a, imgm2b, imgm2c, imgm2d] },
-  { id:13, img: imgm3, name: "Titan Men 3", price: "₹6000", thumbnails:[imgm3a, imgm3b, imgm3c, imgm3d] },
-  { id:14, img: imgm4, name: "Titan Men 4", price: "₹6000", thumbnails:[imgm4a, imgm4b, imgm4c, imgm4d] },
-  { id:15, img: imgm5, name: "Titan Men 5", price: "₹6000", thumbnails:[imgm5a, imgm5b, imgm5c, imgm5d] },
-  { id:16, img: imgm6, name: "Titan Men 6", price: "₹6000", thumbnails:[imgm6a, imgm6b, imgm6c, imgm6d] },
-  { id:17, img: imgm7, name: "Titan Men 7", price: "₹6000", thumbnails:[imgm7a, imgm7b, imgm7c, imgm7d] },
-  { id:18, img: imgm8, name: "Titan Men 8", price: "₹6000", thumbnails:[imgm8a, imgm8b, imgm8c, imgm8d] },
-  { id:19, img: imgm9, name: "Titan Men 9", price: "₹6000", thumbnails:[imgm9a, imgm9b, imgm9c, imgm9d] },
-  { id:20, img: imgm10, name: "Titan Men 9", price: "₹6000", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
+  { id:11, type:"MEN", tag:"slick", img: imgm1, name: "Kenneth Cole", price: "₹5000", thumbnails:[imgm1a, imgm1b, imgm1c, imgm1d] },
+  { id:12, type:"MEN", tag:"slick", img: imgm2, name: "Timex", price: "₹3500", thumbnails:[imgm2a, imgm2b, imgm2c, imgm2d] },
+  { id:13, type:"MEN", tag:"slick", img: imgm3, name: "Titan Ldl", price: "₹3399", thumbnails:[imgm3a, imgm3b, imgm3c, imgm3d] },
+  { id:14, type:"MEN", tag:"slick", img: imgm4, name: "Fastrack", price: "₹2500", thumbnails:[imgm4a, imgm4b, imgm4c, imgm4d] },
+  { id:15, type:"MEN", tag:"slick", img: imgm5, name: "Fastrack", price: "₹2999", thumbnails:[imgm5a, imgm5b, imgm5c, imgm5d] },
+  { id:16, type:"MEN", tag:"slick", img: imgm6, name: "Hilfiger", price: "₹6000", thumbnails:[imgm6a, imgm6b, imgm6c, imgm6d] },
+  { id:17, type:"MEN", tag:"slick", img: imgm7, name: "Fastrack", price: "₹2500", thumbnails:[imgm7a, imgm7b, imgm7c, imgm7d] },
+  { id:18, type:"MEN", tag:"slick", img: imgm8, name: "Sonata Poze", price: "₹3500", thumbnails:[imgm8a, imgm8b, imgm8c, imgm8d] },
+  { id:19, type:"MEN", tag:"slick", img: imgm9, name: "fastrack", price: "₹2000", thumbnails:[imgm9a, imgm9b, imgm9c, imgm9d] },
+  { id:20, type:"MEN", tag:"slick", img: imgm10, name: "Hilfiger", price: "₹3500", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
 ];
 
 export const WomenWatches = [
-  { id:21, img: imgw1, name: "Titan Men 1", price: "₹5000", thumbnails:[imgw1a, imgw1b, imgw1c, imgw1d] },
-  { id:22, img: imgw2, name: "Titan Men 2", price: "₹6000", thumbnails:[imgw2a, imgw2b, imgw2c, imgw2d] },
-  { id:23, img: imgw3, name: "Titan Men 3", price: "₹6000", thumbnails:[imgw3a, imgw3b, imgw3c, imgw3d] },
-  { id:24, img: imgw4, name: "Titan Men 4", price: "₹6000", thumbnails:[imgw4a, imgw4b, imgw4c, imgw4d] },
-  { id:25, img: imgw5, name: "Titan Men 5", price: "₹6000", thumbnails:[imgw5a, imgw5b, imgw5c, imgw5d] },
-  { id:26, img: imgw6, name: "Titan Men 6", price: "₹6000", thumbnails:[imgw6a, imgw6b, imgw6c, imgw6d] },
+  { id:21, img: imgw1, name: "Raga", price: "₹5000", thumbnails:[imgw1a, imgw1b, imgw1c, imgw1d] },
+  { id:22, img: imgw2, name: "Titan ", price: "₹3500", thumbnails:[imgw2a, imgw2b, imgw2c, imgw2d] },
+  { id:23, img: imgw3, name: "Fastrack", price: "₹2500", thumbnails:[imgw3a, imgw3b, imgw3c, imgw3d] },
+  { id:24, img: imgw4, name: "Raga Titan", price: "₹4000", thumbnails:[imgw4a, imgw4b, imgw4c, imgw4d] },
+  { id:25, img: imgw5, name: "Titan", price: "₹2000", thumbnails:[imgw5a, imgw5b, imgw5c, imgw5d] },
+  { id:26, img: imgw6, name: "Fastrack", price: "₹2999", thumbnails:[imgw6a, imgw6b, imgw6c, imgw6d] },
 //   { id:7, img: imgw7, name: "Titan Men 7", price: "₹6000", thumbnails:[imgw7a, imgw7b, imgw7c, imgw7d] },
 //   { id:8, img: imgw8, name: "Titan Men 8", price: "₹6000", thumbnails:[imgw8a, imgw8b, imgw8c, imgw8d] },
 //   { id:9, img: imgw9, name: "Titan Men 9", price: "₹6000", thumbnails:[imgw9a, imgw9b, imgw9c, imgw9d] },
 ];
+
+export const Trending=[
+
+ {  id:31, img: imgt1, name: "Kenneth Cole", price: "₹5000", thumbnails:[imgt1a, imgt1b, imgt1c, imgt1d] },
+  { id:32, img: imgt2, name: "Timex", price: "₹3500",        thumbnails:[imgt2a, imgt2b, imgt2c, imgt2d] },
+  { id:33, img: imgt3, name: "Titan Ldl", price: "₹3399",    thumbnails:[imgt3a, imgt3b, imgt3c, imgt3d] },
+  { id:34, img: imgt4, name: "Fastrack", price: "₹2500",     thumbnails:[imgt4a, imgt4b, imgt4c, imgt4d] },
+  { id:35, img: imgt5, name: "Fastrack", price: "₹2999",     thumbnails:[imgt5a, imgt5b, imgt5c, imgt5d] },
+  { id:36, img: imgt6, name: "Hilfiger", price: "₹6000",     thumbnails:[imgt6a, imgt6b, imgt6c, imgt6d] },
+  { id:37, img: imgt7, name: "Fastrack", price: "₹2500",     thumbnails:[imgt7a, imgt7b, imgt7c, imgt7d] },
+  { id:38, img: imgt8, name: "Sonata Poze", price: "₹3500",  thumbnails:[imgt8a, imgt8b, imgt8c, imgt8d] },
+  { id:39, img: imgt9, name: "fastrack", price: "₹2000",     thumbnails:[imgt9a, imgt9b, imgt9c, imgt9d] },
+  { id:40, img: imgt10, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt10a, imgt10b, imgt10c, imgt10d] },
+  { id:41, img: imgt11, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt11a, imgt11b, imgt11c, imgt11d] },
+  { id:42, img: imgt12, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt12a, imgt12b, imgt12c, imgt12d] },
+
+
+
+
+]
+
+
+
 
 
 // export const allwatches=[

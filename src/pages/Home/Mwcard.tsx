@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom"
 import img from "../../assets/images/herom.jpeg"
 import img2 from "../../assets/images/herow.jpeg"
 import {  Trending } from "../../data/watchData"
@@ -33,16 +34,20 @@ function MwCard() {
 
          </div>
          <div className="px-20  grid gap-6 grid-cols-4">
-          {Trending.map((w,id)=>(
-            <div key={id}>
-              <div className="bg-slate-100 rounded-lg">
-              <img className=" rounded-md hover:scale-105 w-80 duration-300 h-96" src={w.img} alt="" /></div>
+          {Trending.map((w)=>(
+            <Link
+             to={`/Trending/${w.id}`}
+             key={w.id}
+            >
+            <div >
+              <div className=" ">
+              <img className="  hover:scale-105 w-80 h-full duration-300 " src={w.img} alt="" /></div>
               <div>
                 <h1 className="text-gray-400">{w.name}</h1>
                 <p>{w.price}</p>
               </div>
             </div>
-          
+          </Link>
           ))}
          </div>
         
