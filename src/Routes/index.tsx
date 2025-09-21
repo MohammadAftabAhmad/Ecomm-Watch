@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import HomePage from "../pages/Home/HomePage";
 import MenPage from "../pages/Men/MenPage";
-import DetailsHero from "../pages/WDetails/sections/DetailsHero";
+
+import WatchDetaisPage from "../pages/WDetails/WatchDetaisPage";
 const router= createBrowserRouter([
     {
       
@@ -19,7 +20,7 @@ const router= createBrowserRouter([
       },
       {
         path: "/:gender/:id",
-        element: <DetailsHero/>
+        element: <WatchDetaisPage/>
       }
 
     ],

@@ -36,29 +36,6 @@ if (gender === "women") {
   const mainImage = selectedImage || Watch.img;
 
 
-    const features = [
-    {
-      icon: <ShieldCheck className="w-10 h-10" />,
-      title: "24 Months Warranty",
-    },
-    {
-      icon: <Truck className="w-10 h-10" />,
-      title: "Free Shipping Countrywide",
-    },
-    {
-      icon: <RotateCcw className="w-10 h-10" />,
-      title: "Easy Return",
-    },
-    {
-      icon: <HandCoins className="w-10 h-10" />,
-      title: "Pay on Delivery Available",
-    },
-    {
-      icon: <Cog className="w-10 h-10" />,
-      title: "Serviced Across India",
-    },
-  ];
-
   return (
     <>
      

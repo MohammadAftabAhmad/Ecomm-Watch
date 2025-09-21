@@ -273,16 +273,16 @@ import imgt12d from "../assets/images/Trending/tr12d.jpeg"
 
 export const NewArrivals = [
 
-  { id:1, img: imgn1, name: "Titan classic", price: "₹3500", thumbnails:[imgn1a, imgn1b, imgn1c, imgn1d] },
-  { id:2, img: imgn6, name: "Fastrack", price: "₹2399", thumbnails:[imgn6a, imgn6b, imgn6c, imgn6d] },
-  { id:3, img: imgn2, name: "Titan Edge", price: "₹2499", thumbnails:[imgn2a, imgn2b, imgn2c] },
-  { id:4, img: imgn8, name: "Titan slick", price: "₹1999", thumbnails:[imgn8a, imgn8b, imgn8c, imgn8d] },
-  { id:5, img: imgn3, name: "Titan Edge", price: "₹3000", thumbnails:[imgn3a, imgn3b, imgn3c, imgn3d] },
-  { id:6, img: imgn7, name: "Fastrack", price: "₹2499", thumbnails:[imgn7a, imgn7b, imgn7c, imgn7d] },
-  { id:7, img: imgn4, name: "Fastrack mdl", price: "₹2399", thumbnails:[imgn4a, imgn4b, imgn4c, imgn4d] },
-  { id:8, img: imgn9, name: "Titan wdl", price: "₹3000", thumbnails:[imgn9a, imgn9b, imgn9c, imgn9d] },
-  { id:9, img: imgn5, name: "Fastrack ", price: "₹2500", thumbnails:[imgn5a, imgn5b, imgn5c, imgn5d] },
-  { id:10, img: imgn10, name: "Raga", price: "₹4000", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
+  { id:1, type:"MEN", tag:"slick", img: imgn1, name: "Titan classic", price: "₹3500", thumbnails:[imgn1a, imgn1b, imgn1c, imgn1d] },
+  { id:2, type:"WOMEN", tag:"slick", img: imgn6, name: "Fastrack", price: "₹2399", thumbnails:[imgn6a, imgn6b, imgn6c, imgn6d] },
+  { id:3, type:"MEN", tag:"slick", img: imgn2, name: "Titan Edge", price: "₹2499", thumbnails:[imgn2a, imgn2b, imgn2c] },
+  { id:4, type:"WOMEN", tag:"slick", img: imgn8, name: "Titan slick", price: "₹1999", thumbnails:[imgn8a, imgn8b, imgn8c, imgn8d] },
+  { id:5, type:"WOMEN", tag:"slick", img: imgn3, name: "Titan Edge", price: "₹3000", thumbnails:[imgn3a, imgn3b, imgn3c, imgn3d] },
+  { id:6, type:"WOMEN", tag:"slick", img: imgn7, name: "Fastrack", price: "₹2499", thumbnails:[imgn7a, imgn7b, imgn7c, imgn7d] },
+  { id:7, type:"MEN", tag:"slick", img: imgn4, name: "Fastrack mdl", price: "₹2399", thumbnails:[imgn4a, imgn4b, imgn4c, imgn4d] },
+  { id:8, type:"WOMEN", tag:"slick", img: imgn9, name: "Titan wdl", price: "₹3000", thumbnails:[imgn9a, imgn9b, imgn9c, imgn9d] },
+  { id:9, type:"MEN", tag:"slick", img: imgn5, name: "Fastrack ", price: "₹2500", thumbnails:[imgn5a, imgn5b, imgn5c, imgn5d] },
+  { id:10, type:"WOMEN", tag:"slick", img: imgn10, name: "Raga", price: "₹4000", thumbnails:[imgm10a, imgm10b, imgm10c, imgm10d] },
   
 ];
 
@@ -300,12 +300,12 @@ export const MenWatches = [
 ];
 
 export const WomenWatches = [
-  { id:21, img: imgw1, name: "Raga", price: "₹5000", thumbnails:[imgw1a, imgw1b, imgw1c, imgw1d] },
-  { id:22, img: imgw2, name: "Titan ", price: "₹3500", thumbnails:[imgw2a, imgw2b, imgw2c, imgw2d] },
-  { id:23, img: imgw3, name: "Fastrack", price: "₹2500", thumbnails:[imgw3a, imgw3b, imgw3c, imgw3d] },
-  { id:24, img: imgw4, name: "Raga Titan", price: "₹4000", thumbnails:[imgw4a, imgw4b, imgw4c, imgw4d] },
-  { id:25, img: imgw5, name: "Titan", price: "₹2000", thumbnails:[imgw5a, imgw5b, imgw5c, imgw5d] },
-  { id:26, img: imgw6, name: "Fastrack", price: "₹2999", thumbnails:[imgw6a, imgw6b, imgw6c, imgw6d] },
+  { id:21, type:"WOMEN", tag:"slick", img: imgw1, name: "Raga", price: "₹5000", thumbnails:[imgw1a, imgw1b, imgw1c, imgw1d] },
+  { id:22, type:"WOMEN", tag:"slick", img: imgw2, name: "Titan ", price: "₹3500", thumbnails:[imgw2a, imgw2b, imgw2c, imgw2d] },
+  { id:23, type:"WOMEN", tag:"slick", img: imgw3, name: "Fastrack", price: "₹2500", thumbnails:[imgw3a, imgw3b, imgw3c, imgw3d] },
+  { id:24, type:"WOMEN", tag:"slick", img: imgw4, name: "Raga Titan", price: "₹4000", thumbnails:[imgw4a, imgw4b, imgw4c, imgw4d] },
+  { id:25, type:"WOMEN", tag:"slick", img: imgw5, name: "Titan", price: "₹2000", thumbnails:[imgw5a, imgw5b, imgw5c, imgw5d] },
+  { id:26, type:"WOMEN", tag:"slick", img: imgw6, name: "Fastrack", price: "₹2999", thumbnails:[imgw6a, imgw6b, imgw6c, imgw6d] },
 //   { id:7, img: imgw7, name: "Titan Men 7", price: "₹6000", thumbnails:[imgw7a, imgw7b, imgw7c, imgw7d] },
 //   { id:8, img: imgw8, name: "Titan Men 8", price: "₹6000", thumbnails:[imgw8a, imgw8b, imgw8c, imgw8d] },
 //   { id:9, img: imgw9, name: "Titan Men 9", price: "₹6000", thumbnails:[imgw9a, imgw9b, imgw9c, imgw9d] },

@@ -1,9 +1,15 @@
-import DetailsHero from "../WDetails/sections/DetailsHero"
+import MenHero from "./sections/MenHero"
+import MenWatches from "./sections/MenWatches"
+
+
 
 
 function MenPage() {
   return (
-    <DetailsHero/>
+   <>
+   <MenHero/>
+   <MenWatches/>
+   </>
   )
 }
 
