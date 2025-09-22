@@ -313,18 +313,18 @@ export const WomenWatches = [
 
 export const Trending=[
 
- {  id:31, type:"MEN", img: imgt1, name: "Kenneth Cole", price: "₹5000", thumbnails:[imgt1a, imgt1b, imgt1c, imgt1d] },
-  { id:32,  img: imgt2, name: "Timex", price: "₹3500",        thumbnails:[imgt2a, imgt2b, imgt2c, imgt2d] },
-  { id:33,  img: imgt3, name: "Titan Ldl", price: "₹3399",    thumbnails:[imgt3a, imgt3b, imgt3c, imgt3d] },
-  { id:34,  img: imgt4, name: "Fastrack", price: "₹2500",     thumbnails:[imgt4a, imgt4b, imgt4c, imgt4d] },
-  { id:35, img: imgt5, name: "Fastrack", price: "₹2999",     thumbnails:[imgt5a, imgt5b, imgt5c, imgt5d] },
-  { id:36, img: imgt6, name: "Hilfiger", price: "₹6000",     thumbnails:[imgt6a, imgt6b, imgt6c, imgt6d] },
-  { id:37, img: imgt7, name: "Fastrack", price: "₹2500",     thumbnails:[imgt7a, imgt7b, imgt7c, imgt7d] },
-  { id:38, img: imgt8, name: "Sonata Poze", price: "₹3500",  thumbnails:[imgt8a, imgt8b, imgt8c, imgt8d] },
-  { id:39, img: imgt9, name: "fastrack", price: "₹2000",     thumbnails:[imgt9a, imgt9b, imgt9c, imgt9d] },
-  { id:40, img: imgt10, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt10a, imgt10b, imgt10c, imgt10d] },
-  { id:41, img: imgt11, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt11a, imgt11b, imgt11c, imgt11d] },
-  { id:42, img: imgt12, name: "Hilfiger", price: "₹3500",    thumbnails:[imgt12a, imgt12b, imgt12c, imgt12d] },
+ {  id:31, type:"MEN", img: imgt1, name: "Poze Sonata", price: "₹2500", thumbnails:[imgt1a, imgt1b, imgt1c, imgt1d] },
+  { id:32, type:"WoMEN", img: imgt2, name: "Raga Titan", price: "₹3500",        thumbnails:[imgt2a, imgt2b, imgt2c, imgt2d] },
+  { id:33, type:"MEN", img: imgt3, name: "Fastrack", price: "₹2499",    thumbnails:[imgt3a, imgt3b, imgt3c, imgt3d] },
+  { id:34, type:"WOMEN", img: imgt4, name: "VYB", price: "₹1800",     thumbnails:[imgt4a, imgt4b, imgt4c, imgt4d] },
+  { id:35, type:"MEN",img: imgt5, name: "Poze Sonata", price: "₹1700",     thumbnails:[imgt5a, imgt5b, imgt5c, imgt5d] },
+  { id:36, type:"WOMEN",img: imgt6, name: "Titan", price: "₹1600",     thumbnails:[imgt6a, imgt6b, imgt6c, imgt6d] },
+  { id:37, type:"WOMEN",img: imgt7, name: "Poze Sonata", price: "₹1500",     thumbnails:[imgt7a, imgt7b, imgt7c, imgt7d] },
+  { id:38, type:"WOMEN",img: imgt8, name: "VYB", price: "₹2000",  thumbnails:[imgt8a, imgt8b, imgt8c, imgt8d] },
+  { id:39, type:"MEN",img: imgt9, name: "Sonata", price: "₹1900",     thumbnails:[imgt9a, imgt9b, imgt9c, imgt9d] },
+  { id:40, type:"WOMEN",img: imgt10, name: "Titan", price: "₹1800",    thumbnails:[imgt10a, imgt10b, imgt10c, imgt10d] },
+  { id:41, type:"MEN",img: imgt11, name: "Timex", price: "₹2200",    thumbnails:[imgt11a, imgt11b, imgt11c, imgt11d] },
+  { id:42, type:"WOMEN",img: imgt12, name: "Poze Sonata", price: "₹2000",    thumbnails:[imgt12a, imgt12b, imgt12c, imgt12d] },
 
 
 
@@ -332,7 +332,7 @@ export const Trending=[
 ]
 
 
- export const AllMenWatches=[
+ export const AllWatches=[
    ...NewArrivals,
    ...MenWatches,
    ...Trending

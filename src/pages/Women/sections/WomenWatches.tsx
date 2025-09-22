@@ -26,9 +26,9 @@ const item = {
 
 
 
-function MenWatches() {
+function WomenWatches() {
   // const menTrending =Trending.filter((w)=>w.type?.toUpperCase()==="MEN") filter..............
-   const AllMen=AllWatches.filter((w)=>w.type?.toUpperCase()==="MEN")
+   const AllMen=AllWatches.filter((w)=>w.type?.toUpperCase()==="WOMEN")
   return (
     <>
       <motion.h1
@@ -48,7 +48,7 @@ function MenWatches() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }} // animate once only
-        className="px-20 pt-10 grid gap-6 grid-cols-5"
+        className="px-20 pt-10 grid gap-6 grid-cols-4"
       >
         {AllMen.map((w) => (
           <motion.div key={w.id} variants={item}>
@@ -72,4 +72,4 @@ function MenWatches() {
   )
 }
 
-export default MenWatches
+export default WomenWatches

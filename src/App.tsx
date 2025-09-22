@@ -1,6 +1,7 @@
 import { Outlet,useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { useEffect, } from "react";
+import './index.css'
 // import HeroPage from "./pages/Home/HeroPage";
 // import MwCard from "./pages/Home/Mwcard";
 

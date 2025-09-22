@@ -4,6 +4,8 @@ import HomePage from "../pages/Home/HomePage";
 import MenPage from "../pages/Men/MenPage";
 
 import WatchDetaisPage from "../pages/WDetails/WatchDetaisPage";
+
+import WomensPage from "../pages/Women/WomensPage";
 const router= createBrowserRouter([
     {
       
@@ -21,7 +23,11 @@ const router= createBrowserRouter([
       {
         path: "/:gender/:id",
         element: <WatchDetaisPage/>
-      }
+      },
+      {
+        path: "women",
+        element: <WomensPage/>,
+      },
 
     ],
     },

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MenWatches, WomenWatches, NewArrivals, Trending, AllMenWatches } from "../../../data/watchData";
+import { MenWatches, WomenWatches, NewArrivals, Trending, AllWatches } from "../../../data/watchData";
 import { useParams } from "react-router-dom";
 import { ShieldCheck, Truck, RotateCcw, HandCoins, Cog } from "lucide-react";
 
@@ -20,7 +20,7 @@ if (gender === "women") {
 } else if (gender==="Trending"){
   watchArray= Trending;
 } else if (gender=== "AllMenWatches"){
-  watchArray= AllMenWatches;
+  watchArray= AllWatches;
 }
 
 

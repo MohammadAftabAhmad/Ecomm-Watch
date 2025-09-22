@@ -43,7 +43,7 @@ const location= useLocation();
     <ul className={`flex gap-4 items-center ${isScrolled? 'text-black': 'text-white'}`}>
       <li  className="p-2 hover:cursor-pointer"><Link to="/" >Home</Link>  </li>
       <li  className="p-2 hover:cursor-pointer"><Link to="/men" >Men </Link></li>
-       <li className="p-2 hover:cursor-pointer"><Link  to ="/women">Women</Link> </li>
+       <li className="p-2 hover:cursor-pointer"><Link  to ="/">Women</Link> </li>
     </ul>
   </div>
 
@@ -51,7 +51,7 @@ const location= useLocation();
   <ul className={`flex gap-6 items-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ${isScrolled ? 'text-black':'text-white'}`}>
     <li className="p-2 hover:cursor-pointer"><Link to="/">Home</Link></li>
     <li className="p-2 hover:cursor-pointer"><Link to="/men">Men</Link> </li>
-    <li className="p-2 hover:cursor-pointer"><Link to="/">Women</Link> </li>
+    <li className="p-2 hover:cursor-pointer"><Link to="/women">Women</Link> </li>
     <li className="p-2 hover:cursor-pointer"><Link to="/">Collections</Link> </li>
   </ul>
 </nav>
