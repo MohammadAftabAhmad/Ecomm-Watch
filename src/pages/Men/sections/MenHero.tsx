@@ -3,7 +3,7 @@ import img from "../../../assets/images/Menpage/menHero.png"
 
 function MenHero() {
   return (
-    <div className="relative w-full pt-10 overflow-hidden bg-black">
+    <div className="relative w-full pt-10  overflow-hidden bg-black">
       {/* Background Image with smooth zoom + fade */}
       <motion.img
         src={img}
