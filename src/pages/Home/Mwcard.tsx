@@ -15,7 +15,7 @@ function MwCard() {
       <div className="relative">
        <img className="w-[800px] h-[650px] rounded-md " src={img} alt="" />
         <div className="absolute bottom-4 left-3 flex ">
-          <button className=" px-5 py-2 bg-black text-white rounded-md hover:bg-gray-800 ">Explore</button>
+          <button className=" px-5 py-2 bg-black text-white rounded-md hover:bg-gray-800 "><Link to="/men" >Explore </Link></button>
         </div> 
        </div>
        <div className="relative">

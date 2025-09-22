@@ -313,10 +313,10 @@ export const WomenWatches = [
 
 export const Trending=[
 
- {  id:31, img: imgt1, name: "Kenneth Cole", price: "₹5000", thumbnails:[imgt1a, imgt1b, imgt1c, imgt1d] },
-  { id:32, img: imgt2, name: "Timex", price: "₹3500",        thumbnails:[imgt2a, imgt2b, imgt2c, imgt2d] },
-  { id:33, img: imgt3, name: "Titan Ldl", price: "₹3399",    thumbnails:[imgt3a, imgt3b, imgt3c, imgt3d] },
-  { id:34, img: imgt4, name: "Fastrack", price: "₹2500",     thumbnails:[imgt4a, imgt4b, imgt4c, imgt4d] },
+ {  id:31, type:"MEN", img: imgt1, name: "Kenneth Cole", price: "₹5000", thumbnails:[imgt1a, imgt1b, imgt1c, imgt1d] },
+  { id:32,  img: imgt2, name: "Timex", price: "₹3500",        thumbnails:[imgt2a, imgt2b, imgt2c, imgt2d] },
+  { id:33,  img: imgt3, name: "Titan Ldl", price: "₹3399",    thumbnails:[imgt3a, imgt3b, imgt3c, imgt3d] },
+  { id:34,  img: imgt4, name: "Fastrack", price: "₹2500",     thumbnails:[imgt4a, imgt4b, imgt4c, imgt4d] },
   { id:35, img: imgt5, name: "Fastrack", price: "₹2999",     thumbnails:[imgt5a, imgt5b, imgt5c, imgt5d] },
   { id:36, img: imgt6, name: "Hilfiger", price: "₹6000",     thumbnails:[imgt6a, imgt6b, imgt6c, imgt6d] },
   { id:37, img: imgt7, name: "Fastrack", price: "₹2500",     thumbnails:[imgt7a, imgt7b, imgt7c, imgt7d] },
@@ -332,8 +332,11 @@ export const Trending=[
 ]
 
 
-
-
+ export const AllMenWatches=[
+   ...NewArrivals,
+   ...MenWatches,
+   ...Trending
+ ]
 
 // export const allwatches=[
 //   {MenWatches},{WomenWatches}

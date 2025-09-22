@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MenWatches, WomenWatches, NewArrivals, Trending } from "../../../data/watchData";
+import { MenWatches, WomenWatches, NewArrivals, Trending, AllMenWatches } from "../../../data/watchData";
 import { useParams } from "react-router-dom";
 import { ShieldCheck, Truck, RotateCcw, HandCoins, Cog } from "lucide-react";
 
@@ -19,6 +19,8 @@ if (gender === "women") {
   watchArray = NewArrivals;
 } else if (gender==="Trending"){
   watchArray= Trending;
+} else if (gender=== "AllMenWatches"){
+  watchArray= AllMenWatches;
 }
 
 
@@ -26,7 +28,7 @@ if (gender === "women") {
 
   if (!Watch) {
     return (
-      <p className="p-10 text-red-500">
+      <p className="p-40 text-red-500">
         {gender?.toUpperCase()} Watch not found.
       </p>
     );
@@ -116,6 +118,7 @@ if (gender === "women") {
         
         
       </div>
+         
       
     </>
   );

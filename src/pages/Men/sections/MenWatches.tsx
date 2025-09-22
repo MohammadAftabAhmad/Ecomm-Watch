@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Trending } from "../../../data/watchData"
+import {  AllMenWatches } from "../../../data/watchData"
 import { motion } from "framer-motion"
 
 const container = {
@@ -24,14 +24,18 @@ const item = {
   },
 }
 
+
+
 function MenWatches() {
+  // const menTrending =Trending.filter((w)=>w.type?.toUpperCase()==="MEN") filter..............
+   const AllMen=AllMenWatches.filter((w)=>w.type?.toUpperCase()==="MEN")
   return (
     <>
       <motion.h1
   initial={{ rotateX: -90, opacity: 0 }}
   whileInView={{ rotateX: 0, opacity: 1 }}
   transition={{ duration: 0.8, ease: "easeOut" }}
-  // viewport={{ once: true }}
+  viewport={{ once: true }}
   className="text-5xl font-bold text-center pt-20 bg-gradient-to-r from-gray-700 to-black bg-clip-text text-transparent"
 >
   All Watches
@@ -46,9 +50,9 @@ function MenWatches() {
         viewport={{ once: true, amount: 0.2 }} // animate once only
         className="px-20 pt-10 grid gap-6 grid-cols-4"
       >
-        {Trending.map((w) => (
+        {AllMen.map((w) => (
           <motion.div key={w.id} variants={item}>
-            <Link to={`/Trending/${w.id}`}>
+            <Link to={`/AllMenWatches/${w.id}`}>
               <div>
                 <img
                   className="hover:scale-105 w-80 h-full duration-300"
