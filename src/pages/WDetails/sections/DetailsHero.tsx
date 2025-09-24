@@ -1,10 +1,18 @@
 import { useState } from "react";
 import { MenWatches, WomenWatches, NewArrivals, Trending, AllWatches } from "../../../data/watchData";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { ShieldCheck, Truck, RotateCcw, HandCoins, Cog } from "lucide-react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../../redux/cart/CartSlice";
+
+
 
 
 function DetailsHero() {
+
+   
+ 
+
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   // expecting /:gender/:id (men/1, women/2, new/3)
@@ -36,6 +44,23 @@ if (gender === "women") {
 
   const WatchImages:string[] = Watch.thumbnails || [];
   const mainImage = selectedImage || Watch.img;
+
+  //reduxx...........
+  const dispatch=useDispatch();
+  const navigate=useNavigate();
+ 
+  const handleAddToCart=()=>{
+    const productToAdd={
+      id: Watch.id,
+      name:Watch.name,
+      image:mainImage,
+    };
+    dispatch(addToCart(productToAdd));
+    navigate('/cart')
+  }
+
+
+
 
 
   return (
@@ -77,7 +102,9 @@ if (gender === "women") {
           <h1 className="text-xl pt-2 ">{Watch.price}</h1>
           <h1 className="text-gray-500 text-sm">Inclusive of all taxes*</h1>
           <div className="flex gap-5 py-5">
-            <button className="text-white text-xl bg-black hover:bg-gray-800 cursor-pointer border-2 rounded-md py-2 px-6">ADD TO CART</button>
+            <button 
+            onClick={handleAddToCart}
+             className="text-white text-xl bg-black hover:bg-gray-800 cursor-pointer border-2 rounded-md py-2 px-6">ADD TO CART</button>
             <button className="text-white text-xl bg-black hover:bg-gray-800 cursor-pointer border-2 rounded-md py-2 px-10">BUY NOW </button>
           </div>
 

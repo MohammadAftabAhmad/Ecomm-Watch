@@ -42,7 +42,7 @@ const location= useLocation();
     {/* Right side - Extra menu */}
     <ul className={`flex gap-4 items-center ${isScrolled? 'text-black': 'text-white'}`}>
       <li  className="p-2 hover:cursor-pointer"><Link to="/" >Home</Link>  </li>
-      <li  className="p-2 hover:cursor-pointer"><Link to="/men" >Men </Link></li>
+      <li  className="p-2 hover:cursor-pointer"><Link to="/cart" >Cart </Link></li>
        <li className="p-2 hover:cursor-pointer"><Link  to ="/">Women</Link> </li>
     </ul>
   </div>
