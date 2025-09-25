@@ -11,7 +11,10 @@ function Cart() {
 
   };
 
-
+  const totalPrice=items.reduce((total:any,item:any)=>{
+    const priceNumber=parseFloat(item.price.replace(/[^\d]/g, ''));
+    return total + priceNumber * item.quantity;
+  }, 0);
 
   return (
     <>
@@ -45,7 +48,19 @@ function Cart() {
           ))
         )}
       </div>
-      
+      {items.length > 0 && (
+        <div className="bg-[#f8f8f8] border-b p-6">
+          <div className="max-w-4xl mx-auto flex justify-between items-center py-10">
+            <div>
+              <p className="text-xl font-semibold">Total: ₹{totalPrice.toLocaleString()}</p>
+              <p className="text-sm text-gray-500">Includes all items in your cart</p>
+            </div>
+            <button className="bg-black text-white px-6 py-3 rounded-4xl hover:bg-gray-800 transition">
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 }

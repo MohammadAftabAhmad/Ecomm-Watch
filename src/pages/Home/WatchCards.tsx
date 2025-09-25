@@ -1,13 +1,18 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { NewArrivals, MenWatches, WomenWatches } from "../../data/watchData";
 import { Link } from "react-router-dom";
+
+import { useSelector, useDispatch } from "react-redux";
+import type { RootState } from "../../redux/store";
+import { setCategory as setCategoryAction } from "../../redux/cart/CategorySlice";
 
 function WatchCards() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const ScrollRef = useRef<HTMLDivElement>(null);
 
-  const [category, setCategory] = useState<"men" | "women">("men");
+  const dispatch = useDispatch();
+  const category = useSelector((state: RootState) => state.category.value);
 
   const watchesToShow = category === "men" ? MenWatches : WomenWatches;
 
@@ -61,7 +66,7 @@ function WatchCards() {
         >
           {NewArrivals.map((w) => (
             <Link
-              to={`/new/${w.id}`}   // ✅ Separate route for New Arrivals
+              to={`/new/${w.id}`} // ✅ Separate route for New Arrivals
               key={w.id}
               className="min-w-80 max-w-[450px] block"
             >
@@ -88,8 +93,8 @@ function WatchCards() {
       <div className="relative">
         <h1 className="text-center font-bold text-4xl mt-10">Best Sellers</h1>
         <div className="text-center flex items-center justify-center gap-10 mt-3">
-          <button onClick={() => setCategory("men")}>MEN</button>
-          <button onClick={() => setCategory("women")}>WOMEN</button>
+          <button onClick={() => dispatch(setCategoryAction("men"))}>MEN</button>
+          <button onClick={() => dispatch(setCategoryAction("women"))}>WOMEN</button>
         </div>
 
         {/* Scroll Buttons */}
