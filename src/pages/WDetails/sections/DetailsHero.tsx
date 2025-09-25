@@ -53,6 +53,7 @@ if (gender === "women") {
     const productToAdd={
       id: Watch.id,
       name:Watch.name,
+      price:Watch.price,
       image:mainImage,
     };
     dispatch(addToCart(productToAdd));
