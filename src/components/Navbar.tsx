@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import  { Link, useLocation } from "react-router-dom"
-
+import logo from "../assets/images/logo.png"
 
 
 
@@ -36,7 +36,8 @@ const location= useLocation();
       }`}>
   <div className="flex justify-between items-center px-5 py-2">
     {/* Left side - Brand */}
-    <span className="font-bold text-lg px-10">TITAN</span>
+    <span className="font-bold text-lg px-10"> <img className="w-32" src={logo} alt="" /></span>
+   
 
 
     {/* Right side - Extra menu */}
