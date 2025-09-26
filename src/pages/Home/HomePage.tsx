@@ -1,6 +1,7 @@
 import HeroPage from "./HeroPage"
 import MwCard from "./Mwcard"
 import WatchCards from "./WatchCards"
+import YourStyle from "./YourStyle"
 
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
     <HeroPage/>
     <WatchCards/>
     <MwCard/>
+    <YourStyle/>
 
 
    </>
