@@ -34,7 +34,7 @@ const location= useLocation();
       className={`fixed top-0 left-0 w-full z-20 transition-all  text-black duration-300 ease-in-out ${
         isScrolled ? 'bg-white shadow-md  ' : 'bg-transparent'
       }`}>
-  <div className="flex justify-between items-center px-5 py-2">
+  <div className="flex justify-between items-center px-5 ">
     {/* Left side - Brand */}
     <span className="font-bold text-lg px-10"> <img className="w-32" src={logo} alt="" /></span>
    
