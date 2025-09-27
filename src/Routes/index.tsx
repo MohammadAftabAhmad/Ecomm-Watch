@@ -8,6 +8,7 @@ import WatchDetaisPage from "../pages/WDetails/WatchDetaisPage";
 import WomensPage from "../pages/Women/WomensPage";
 import Cart from "../pages/cart/Cart";
 import SlickPage from "../pages/slick/SlickPage";
+import BoldPage from "../pages/bold/BoldPage";
 const router= createBrowserRouter([
     {
       
@@ -38,7 +39,10 @@ const router= createBrowserRouter([
         path: "slick",
         element: <SlickPage/>,
       },
-      
+      {
+        path: "bold",
+        element: <BoldPage/>,
+      },
       
 
     ],
