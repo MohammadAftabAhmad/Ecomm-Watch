@@ -1,13 +1,13 @@
-
-import BoldHero from './sections/BoldHero'
+import BoldHero from "./sections/BoldHero";
+import BoldWatches from "./sections/BoldWatches";
 
 function BoldPage() {
   return (
     <>
-    <BoldHero/>
-    
+      <BoldHero />
+      <BoldWatches />
     </>
-  )
+  );
 }
 
-export default BoldPage
+export default BoldPage;
