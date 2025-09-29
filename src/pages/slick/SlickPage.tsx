@@ -1,15 +1,13 @@
-import SlickHero from "./sections/SlickHero"
-
-
+import SlickHero from "./sections/SlickHero";
+import SlickWatches from "./sections/SlickWatches";
 
 function SlickPage() {
   return (
     <>
-    
-    <SlickHero/>
-    
+      <SlickHero />
+      <SlickWatches />
     </>
-  )
+  );
 }
 
-export default SlickPage
+export default SlickPage;
