@@ -242,6 +242,98 @@ import imgt12b from "../assets/images/Trending/tr12b.jpeg";
 import imgt12c from "../assets/images/Trending/tr12c.jpeg";
 import imgt12d from "../assets/images/Trending/tr12d.jpeg";
 
+// couples watches.........................
+
+import imgc1 from "../assets/images/couples/c1.jpeg";
+import imgc1a from "../assets/images/couples/c1a.jpeg";
+import imgc1b from "../assets/images/couples/c1b.jpeg";
+import imgc1c from "../assets/images/couples/c1c.jpeg";
+import imgc1d from "../assets/images/couples/c1d.jpeg";
+
+import imgc2 from "../assets/images/couples/c2.jpeg";
+import imgc2a from "../assets/images/couples/c2a.jpeg";
+import imgc2b from "../assets/images/couples/c2b.jpeg";
+import imgc2c from "../assets/images/couples/c2c.jpeg";
+import imgc2d from "../assets/images/couples/c2d.jpeg";
+
+import imgc3 from "../assets/images/couples/c3.jpeg";
+import imgc3a from "../assets/images/couples/c3a.jpeg";
+import imgc3b from "../assets/images/couples/c3b.jpeg";
+import imgc3c from "../assets/images/couples/c3c.jpeg";
+import imgc3d from "../assets/images/couples/c3d.jpeg";
+
+import imgc4 from "../assets/images/couples/c4.jpeg";
+import imgc4a from "../assets/images/couples/c4a.jpeg";
+import imgc4b from "../assets/images/couples/c4b.jpeg";
+import imgc4c from "../assets/images/couples/c4c.jpeg";
+import imgc4d from "../assets/images/couples/c4d.jpeg";
+
+import imgc5 from "../assets/images/couples/c5.jpeg";
+import imgc5a from "../assets/images/couples/c5a.jpeg";
+import imgc5b from "../assets/images/couples/c5b.jpeg";
+import imgc5c from "../assets/images/couples/c5c.jpeg";
+import imgc5d from "../assets/images/couples/c5d.jpeg";
+
+import imgc6 from "../assets/images/couples/c6.jpeg";
+import imgc6a from "../assets/images/couples/c6a.jpeg";
+import imgc6b from "../assets/images/couples/c6b.jpeg";
+import imgc6c from "../assets/images/couples/c6c.jpeg";
+import imgc6d from "../assets/images/couples/c6d.jpeg";
+
+import imgc7 from "../assets/images/couples/c7.jpeg";
+import imgc7a from "../assets/images/couples/c7a.jpeg";
+import imgc7b from "../assets/images/couples/c7b.jpeg";
+import imgc7c from "../assets/images/couples/c7c.jpeg";
+import imgc7d from "../assets/images/couples/c7d.jpeg";
+
+import imgc8 from "../assets/images/couples/c8.jpeg";
+import imgc8a from "../assets/images/couples/c8a.jpeg";
+import imgc8b from "../assets/images/couples/c8b.jpeg";
+import imgc8c from "../assets/images/couples/c8c.jpeg";
+import imgc8d from "../assets/images/couples/c8d.jpeg";
+
+import imgc9 from "../assets/images/couples/c9.jpeg";
+import imgc9a from "../assets/images/couples/c9a.jpeg";
+import imgc9b from "../assets/images/couples/c9b.jpeg";
+import imgc9c from "../assets/images/couples/c9c.jpeg";
+import imgc9d from "../assets/images/couples/c9d.jpeg";
+
+import imgc10 from "../assets/images/couples/c10.jpeg";
+import imgc10a from "../assets/images/couples/c10a.jpeg";
+import imgc10b from "../assets/images/couples/c10b.jpeg";
+import imgc10c from "../assets/images/couples/c10c.jpeg";
+import imgc10d from "../assets/images/couples/c10d.jpeg";
+
+import imgc11 from "../assets/images/couples/c11.jpeg";
+import imgc11a from "../assets/images/couples/c11a.jpeg";
+import imgc11b from "../assets/images/couples/c11b.jpeg";
+import imgc11c from "../assets/images/couples/c11c.jpeg";
+import imgc11d from "../assets/images/couples/c11d.jpeg";
+
+import imgc12 from "../assets/images/couples/c12.jpeg";
+import imgc12a from "../assets/images/couples/c12a.jpeg";
+import imgc12b from "../assets/images/couples/c12b.jpeg";
+import imgc12c from "../assets/images/couples/c12c.jpeg";
+import imgc12d from "../assets/images/couples/c12d.jpeg";
+
+import imgc13 from "../assets/images/couples/c13.jpeg";
+import imgc13a from "../assets/images/couples/c13a.jpeg";
+import imgc13b from "../assets/images/couples/c13b.jpeg";
+import imgc13c from "../assets/images/couples/c13c.jpeg";
+import imgc13d from "../assets/images/couples/c13d.jpeg";
+
+import imgc14 from "../assets/images/couples/c14.jpeg";
+import imgc14a from "../assets/images/couples/c14a.jpeg";
+import imgc14b from "../assets/images/couples/c14b.jpeg";
+import imgc14c from "../assets/images/couples/c14c.jpeg";
+import imgc14d from "../assets/images/couples/c14d.jpeg";
+
+import imgc15 from "../assets/images/couples/c1.jpeg";
+import imgc15a from "../assets/images/couples/c1a.jpeg";
+import imgc15b from "../assets/images/couples/c1b.jpeg";
+import imgc15c from "../assets/images/couples/c1c.jpeg";
+import imgc15d from "../assets/images/couples/c1d.jpeg";
+
 // import imgt1 from "../assets/images/Trending/Twatch1.png";
 // import imgt2 from "../assets/images/Trending/Twatch2.png";
 // import imgt3 from "../assets/images/Trending/Twatch3.png";
@@ -616,7 +708,145 @@ export const Trending = [
   },
 ];
 
-export const AllWatches = [...NewArrivals, ...MenWatches, ...Trending];
+export const CoupleWatches = [
+  {
+    id: 51,
+    type: "couple",
+    tag: "leather",
+    img: imgc1,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc1a, imgc1b, imgc1c, imgc1d],
+  },
+  {
+    id: 52,
+    type: "couple",
+    tag: "leather",
+    img: imgc2,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc2a, imgc2b, imgc2c, imgc2d],
+  },
+  {
+    id: 53,
+    type: "couple",
+    tag: "leather",
+    img: imgc3,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc3a, imgc3b, imgc3c, imgc3d],
+  },
+  {
+    id: 54,
+    type: "couple",
+    tag: "leather",
+    img: imgc4,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc4a, imgc4b, imgc4c, imgc4d],
+  },
+  {
+    id: 55,
+    type: "couple",
+    tag: "leather",
+    img: imgc5,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc5a, imgc5b, imgc5c, imgc5d],
+  },
+  {
+    id: 56,
+    type: "couple",
+    tag: "leather",
+    img: imgc6,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc6a, imgc6b, imgc6c, imgc6d],
+  },
+  {
+    id: 57,
+    type: "couple",
+    tag: "leather",
+    img: imgc7,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc7a, imgc7b, imgc7c, imgc7d],
+  },
+  {
+    id: 58,
+    type: "couple",
+    tag: "leather",
+    img: imgc8,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc8a, imgc8b, imgc8c, imgc8d],
+  },
+  {
+    id: 59,
+    type: "couple",
+    tag: "leather",
+    img: imgc9,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc9a, imgc9b, imgc9c, imgc9d],
+  },
+  {
+    id: 60,
+    type: "couple",
+    tag: "leather",
+    img: imgc10,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc10a, imgc10b, imgc10c, imgc10d],
+  },
+  {
+    id: 61,
+    type: "couple",
+    tag: "leather",
+    img: imgc11,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc11a, imgc11b, imgc11c, imgc11d],
+  },
+  {
+    id: 62,
+    type: "couple",
+    tag: "leather",
+    img: imgc12,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc12a, imgc12b, imgc12c, imgc12d],
+  },
+  {
+    id: 63,
+    type: "couple",
+    tag: "leather",
+    img: imgc13,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc13a, imgc13b, imgc13c, imgc13d],
+  },
+  {
+    id: 64,
+    type: "couple",
+    tag: "leather",
+    img: imgc14,
+    name: "Titan classic",
+    price: "₹3500",
+    thumbnails: [imgc14a, imgc14b, imgc14c, imgc14d],
+  },
+  // { id: 65, type: "couple", tag: "leather", img: imgn1, name: "Titan classic",price: "₹3500",thumbnails: [imgc15a, imgc15b, imgc15c, imgc15d],},
+  // { id: 66, type: "couple", tag: "leather", img: imgn1, name: "Titan classic",price: "₹3500",thumbnails: [imgc16a, imgc16b, imgc16c, imgc16d],},
+  // { id: 67, type: "couple", tag: "leather", img: imgn1, name: "Titan classic",price: "₹3500",thumbnails: [imgc1a, imgc1b, imgc1c, imgc1d],},
+  // { id: 68, type: "couple", tag: "leather", img: imgn1, name: "Titan classic",price: "₹3500",thumbnails: [imgc1a, imgc1b, imgc1c, imgc1d],},
+];
+
+export const AllWatches = [
+  ...NewArrivals,
+  ...MenWatches,
+  ...Trending,
+  ...CoupleWatches,
+];
 
 // export const allwatches=[
 //   {MenWatches},{WomenWatches}

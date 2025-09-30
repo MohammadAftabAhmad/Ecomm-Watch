@@ -24,9 +24,9 @@ const item = {
   },
 };
 
-function SlickWatches() {
+function BoldWatches() {
   // const menTrending =Trending.filter((w)=>w.type?.toUpperCase()==="MEN") filter..............
-  const AllMen = AllWatches.filter((w) => w.tag?.toLowerCase() === "slick");
+  const AllMen = AllWatches.filter((w) => w.type?.toLowerCase() === "couple");
   return (
     <>
       <motion.h1
@@ -44,7 +44,7 @@ function SlickWatches() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }} // animate once only
-        className="px-20 pt-10 grid gap-6 grid-cols-5"
+        className="px-20 pt-10 grid gap-6 grid-cols-4"
       >
         {AllMen.map((w) => (
           <motion.div key={w.id} variants={item}>
@@ -68,4 +68,4 @@ function SlickWatches() {
   );
 }
 
-export default SlickWatches;
+export default BoldWatches;

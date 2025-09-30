@@ -9,43 +9,45 @@ import WomensPage from "../pages/Women/WomensPage";
 import Cart from "../pages/cart/Cart";
 import SlickPage from "../pages/slick/SlickPage";
 import BoldPage from "../pages/bold/BoldPage";
-const router= createBrowserRouter([
-    {
-      
-    path: "/",          // ✅ should be "/" not ""
+import CouplePage from "../pages/couple/CouplePage";
+const router = createBrowserRouter([
+  {
+    path: "/", // ✅ should be "/" not ""
     element: <App />,
     children: [
       {
-        index: true,    
+        index: true,
         element: <HomePage />,
       },
-       {
+      {
         path: "men",
         element: <MenPage />,
       },
       {
         path: "/:gender/:id",
-        element: <WatchDetaisPage/>
+        element: <WatchDetaisPage />,
       },
       {
         path: "women",
-        element: <WomensPage/>,
+        element: <WomensPage />,
       },
       {
         path: "cart",
-        element: <Cart/>,
+        element: <Cart />,
       },
       {
         path: "slick",
-        element: <SlickPage/>,
+        element: <SlickPage />,
       },
       {
         path: "bold",
-        element: <BoldPage/>,
+        element: <BoldPage />,
       },
-      
-
+      {
+        path: "couples",
+        element: <CouplePage />,
+      },
     ],
-    },
+  },
 ]);
 export default router;

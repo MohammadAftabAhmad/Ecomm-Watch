@@ -48,7 +48,7 @@ function BoldWatches() {
       >
         {AllMen.map((w) => (
           <motion.div key={w.id} variants={item}>
-            <Link to={`/AllMenWatches/${w.id}`}>
+            <Link to={`/AllWatches/${w.id}`}>
               <div>
                 <img
                   className="hover:scale-105 w-80 h-full duration-300"

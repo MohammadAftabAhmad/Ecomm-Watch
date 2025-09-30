@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import img from "../../../assets/images/bold1.png";
+import img from "../../../assets/images/together.png";
 
-function BoldHero() {
+function CoupleHero() {
   return (
     <div className="relative w-full pt-10  overflow-hidden bg-black">
       {/* Background Image with smooth zoom + fade */}
@@ -10,7 +10,7 @@ function BoldHero() {
         alt="Men Watches"
         className="w-full h-[600px] object-cover "
         initial={{ opacity: 0, scale: 1.15 }}
-        animate={{ opacity: 1, scale: 1 }}
+        animate={{ opacity: 0.7, scale: 1 }}
         transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }} // smooth cubic-bezier
       />
 
@@ -27,7 +27,7 @@ function BoldHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.8 }}
         >
-          BOLD WATCHES
+          TOGETHER FOREVER
         </motion.h1>
 
         <motion.h2
@@ -72,4 +72,4 @@ function BoldHero() {
   );
 }
 
-export default BoldHero;
+export default CoupleHero;
