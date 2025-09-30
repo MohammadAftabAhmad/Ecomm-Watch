@@ -1,15 +1,13 @@
-import DetailsHero from "./sections/DetailsHero"
-
-
+import DetailsHero from "./sections/DetailsHero";
+import MoreWatches from "./sections/MoreWatches";
 
 function WatchDetaisPage() {
   return (
     <>
-    <DetailsHero/>
-    
-
+      <DetailsHero />
+      <MoreWatches />
     </>
-  )
+  );
 }
 
-export default WatchDetaisPage
+export default WatchDetaisPage;

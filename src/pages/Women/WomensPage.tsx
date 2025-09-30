@@ -1,18 +1,13 @@
-import WomenHero from "./sections/WomenHero"
-import WomenWatches from "./sections/WomenWatches"
-
+import WomenHero from "./sections/WomenHero";
+import WomenWatches from "./sections/WomenWatches";
 
 function WomensPage() {
   return (
-<>
-  
-<WomenHero/>
-<WomenWatches/>
-
-
-
-</>
-  )
+    <>
+      <WomenHero />
+      <WomenWatches />
+    </>
+  );
 }
 
-export default WomensPage
+export default WomensPage;
