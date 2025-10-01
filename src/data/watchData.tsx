@@ -712,7 +712,7 @@ export const CoupleWatches = [
   {
     id: 51,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc1,
     name: "Titan classic",
     price: "₹3500",
@@ -721,7 +721,7 @@ export const CoupleWatches = [
   {
     id: 52,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc2,
     name: "Titan classic",
     price: "₹3500",
@@ -730,7 +730,7 @@ export const CoupleWatches = [
   {
     id: 53,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc3,
     name: "Titan classic",
     price: "₹3500",
@@ -739,7 +739,7 @@ export const CoupleWatches = [
   {
     id: 54,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc4,
     name: "Titan classic",
     price: "₹3500",
@@ -748,7 +748,7 @@ export const CoupleWatches = [
   {
     id: 55,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc5,
     name: "Titan classic",
     price: "₹3500",
@@ -757,7 +757,7 @@ export const CoupleWatches = [
   {
     id: 56,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc6,
     name: "Titan classic",
     price: "₹3500",
@@ -766,7 +766,7 @@ export const CoupleWatches = [
   {
     id: 57,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc7,
     name: "Titan classic",
     price: "₹3500",
@@ -775,7 +775,7 @@ export const CoupleWatches = [
   {
     id: 58,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc8,
     name: "Titan classic",
     price: "₹3500",
@@ -784,7 +784,7 @@ export const CoupleWatches = [
   {
     id: 59,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc9,
     name: "Titan classic",
     price: "₹3500",
@@ -793,7 +793,7 @@ export const CoupleWatches = [
   {
     id: 60,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc10,
     name: "Titan classic",
     price: "₹3500",
@@ -802,7 +802,7 @@ export const CoupleWatches = [
   {
     id: 61,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc11,
     name: "Titan classic",
     price: "₹3500",
@@ -811,7 +811,7 @@ export const CoupleWatches = [
   {
     id: 62,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc12,
     name: "Titan classic",
     price: "₹3500",
@@ -820,7 +820,7 @@ export const CoupleWatches = [
   {
     id: 63,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc13,
     name: "Titan classic",
     price: "₹3500",
@@ -829,7 +829,7 @@ export const CoupleWatches = [
   {
     id: 64,
     type: "couple",
-    tag: "leather",
+    tag: "together",
     img: imgc14,
     name: "Titan classic",
     price: "₹3500",
