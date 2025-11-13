@@ -27,6 +27,7 @@ function YourStyle() {
           >
             {/* Image */}
             <img
+              loading="lazy"
               src={img.src}
               alt={img.label}
               className="w-80 object-cover rounded-md transition-transform duration-700 group-hover:scale-100"

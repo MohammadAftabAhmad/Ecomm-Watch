@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/images/logo.png";
+import { FaRegUser } from "react-icons/fa";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -109,13 +110,10 @@ function Navbar() {
 
           {/* Right side - Extra menu */}
           <ul
-            className={`flex gap-4 items-center ${
+            className={`flex gap-2 items-center   ${
               isScrolled ? "text-black" : "text-white"
             }`}
           >
-            <li className="p-2 hover:cursor-pointer">
-              <Link to="/">Home</Link>{" "}
-            </li>
             <li className="p-2 hover:cursor-pointer">
               <Link to="/cart">
                 <svg
@@ -137,7 +135,9 @@ function Navbar() {
               </Link>
             </li>
             <li className="p-2 hover:cursor-pointer">
-              <Link to="/">Women</Link>{" "}
+              <Link to="/">
+                <FaRegUser size={23} />
+              </Link>{" "}
             </li>
           </ul>
         </div>

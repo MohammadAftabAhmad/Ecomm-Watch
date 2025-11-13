@@ -84,6 +84,7 @@ function DetailsHero() {
           {/* Main Image */}
           <div className="flex-1 flex justify-center px-10 items-center">
             <img
+              loading="lazy"
               src={mainImage}
               alt={Watch.name}
               className="max-w-md w-[600px] h-[600px] object-contain rounded-lg"

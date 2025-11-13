@@ -1,16 +1,13 @@
-import MenHero from "./sections/MenHero"
-import MenWatches from "./sections/MenWatches"
-
-
-
+import MenHero from "./sections/MenHero";
+import MenWatches from "./sections/MenWatches";
 
 function MenPage() {
   return (
-   <>
-   <MenHero/>
-   <MenWatches/>
-   </>
-  )
+    <>
+      <MenHero />
+      <MenWatches />
+    </>
+  );
 }
 
-export default MenPage
+export default MenPage;

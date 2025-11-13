@@ -62,6 +62,7 @@ function MoreWatches() {
             <Link to={`/AllWatches/${w.id}`}>
               <div>
                 <img
+                  loading="lazy"
                   src={w.img}
                   alt={w.name}
                   className="w-80 h-full object-cover hover:scale-105 duration-300"

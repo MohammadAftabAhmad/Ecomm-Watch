@@ -1,6 +1,5 @@
-
-import { motion } from "framer-motion"
-import img from "../../../assets/images/Womenpage/womenhero.png"
+import { motion } from "framer-motion";
+import img from "../../../assets/images/Womenpage/womenhero.png";
 
 function WomenHero() {
   return (
@@ -8,7 +7,8 @@ function WomenHero() {
       {/* Background Image with smooth zoom + fade */}
       <motion.img
         src={img}
-        alt="Men Watches"
+        loading="lazy"
+        alt="Women Watches"
         className="w-full h-[600px] object-cover"
         initial={{ opacity: 0, scale: 1.15 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -70,7 +70,7 @@ function WomenHero() {
         </motion.div>
       </motion.div>
     </div>
-  )
+  );
 }
 
 export default WomenHero;

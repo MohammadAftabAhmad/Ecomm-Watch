@@ -8,6 +8,7 @@ function CoupleHero() {
       <motion.img
         src={img}
         alt="Men Watches"
+        loading="lazy"
         className="w-full h-[600px] object-cover "
         initial={{ opacity: 0, scale: 1.15 }}
         animate={{ opacity: 0.7, scale: 1 }}

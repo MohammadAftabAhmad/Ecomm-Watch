@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"
-import img from "../../../assets/images/Menpage/menHero.png"
+import { motion } from "framer-motion";
+import img from "../../../assets/images/Menpage/menHero.png";
 
 function MenHero() {
   return (
@@ -7,6 +7,7 @@ function MenHero() {
       {/* Background Image with smooth zoom + fade */}
       <motion.img
         src={img}
+        loading="lazy"
         alt="Men Watches"
         className="w-full h-[600px] object-cover"
         initial={{ opacity: 0, scale: 1.15 }}
@@ -69,7 +70,7 @@ function MenHero() {
         </motion.div>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default MenHero
+export default MenHero;

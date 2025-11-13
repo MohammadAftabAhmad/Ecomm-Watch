@@ -1,8 +1,5 @@
-
-
-
-import { motion } from "framer-motion"
-import img from "../../../assets/images/bold1.png"
+import { motion } from "framer-motion";
+import img from "../../../assets/images/bold1.png";
 
 function BoldHero() {
   return (
@@ -10,6 +7,7 @@ function BoldHero() {
       {/* Background Image with smooth zoom + fade */}
       <motion.img
         src={img}
+        loading="lazy"
         alt="Men Watches"
         className="w-full h-[600px] object-cover "
         initial={{ opacity: 0, scale: 1.15 }}
@@ -72,7 +70,7 @@ function BoldHero() {
         </motion.div>
       </motion.div>
     </div>
-  )
+  );
 }
 
 export default BoldHero;

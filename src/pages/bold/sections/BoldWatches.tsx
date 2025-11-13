@@ -52,6 +52,7 @@ function BoldWatches() {
               <div>
                 <img
                   className="hover:scale-105 w-80 h-full duration-300"
+                  loading="lazy"
                   src={w.img}
                   alt={w.name}
                 />
