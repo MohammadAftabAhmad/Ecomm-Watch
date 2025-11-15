@@ -328,11 +328,11 @@ import imgc14b from "../assets/images/couples/c14b.jpeg";
 import imgc14c from "../assets/images/couples/c14c.jpeg";
 import imgc14d from "../assets/images/couples/c14d.jpeg";
 
-import imgc15 from "../assets/images/couples/c1.jpeg";
-import imgc15a from "../assets/images/couples/c1a.jpeg";
-import imgc15b from "../assets/images/couples/c1b.jpeg";
-import imgc15c from "../assets/images/couples/c1c.jpeg";
-import imgc15d from "../assets/images/couples/c1d.jpeg";
+// import imgc15 from "../assets/images/couples/c1.jpeg";
+// import imgc15a from "../assets/images/couples/c1a.jpeg";
+// import imgc15b from "../assets/images/couples/c1b.jpeg";
+// import imgc15c from "../assets/images/couples/c1c.jpeg";
+// import imgc15d from "../assets/images/couples/c1d.jpeg";
 
 // import imgt1 from "../assets/images/Trending/Twatch1.png";
 // import imgt2 from "../assets/images/Trending/Twatch2.png";

@@ -1,23 +1,23 @@
-import { Outlet,useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { useEffect, } from "react";
-import './index.css'
+import { useEffect } from "react";
+import "./index.css";
+import Footer from "./components/Footer";
 // import HeroPage from "./pages/Home/HeroPage";
 // import MwCard from "./pages/Home/Mwcard";
 
 // import WatchCards from "./pages/Home/WatchCards";
 
-
-
 function App() {
   return (
     <>
-   {/* <Register/> */}
-   <Navbar/>
-   <ScrollToTop />
-   <Outlet />
+      {/* <Register/> */}
+      <Navbar />
+      <ScrollToTop />
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;

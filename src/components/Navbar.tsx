@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+// import logo from "../assets/images/logo.png";
 import { FaRegUser } from "react-icons/fa";
 
 function Navbar() {
