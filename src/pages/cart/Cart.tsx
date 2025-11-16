@@ -5,6 +5,7 @@ import {
 } from "../../redux/cart/CartSlice";
 import type { RootState } from "../../redux/store";
 import { useDispatch, useSelector } from "react-redux";
+import img from "../../assets/images/watchnotfound.png";
 
 function Cart() {
   const items = useSelector((state: RootState) => state.cart.items);
@@ -21,13 +22,28 @@ function Cart() {
 
   return (
     <>
-      <div className="text-center text-3xl text-black p-10 mt-5">
+      <div className="text-center text-3xl text-black py-20 p-10 mt-5">
         <h1>Your Items</h1>
       </div>
 
       <div>
         {items.length === 0 ? (
-          <p className="text-xl px-20">No Products in your Cart</p>
+          <div className="relative h-80 flex items-center justify-center">
+            <img
+              src={img}
+              className="w-72 opacity-60 object-contain select-none"
+              draggable="false"
+            />
+
+            <p
+              className="
+      absolute text-2xl font-semibold text-gray-700 text-center
+      [text-shadow:_1px_1px_3px_white]
+    "
+            >
+              No products in your cart
+            </p>
+          </div>
         ) : (
           items.map((item: any, index: number) => (
             <div

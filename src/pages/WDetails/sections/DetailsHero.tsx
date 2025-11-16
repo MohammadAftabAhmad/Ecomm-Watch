@@ -10,6 +10,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ShieldCheck, Truck, RotateCcw, HandCoins, Cog } from "lucide-react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../../redux/cart/CartSlice";
+import { addToCollections } from "../../../redux/cart/CollectionsSlice";
 
 function DetailsHero() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -56,6 +57,16 @@ function DetailsHero() {
     };
     dispatch(addToCart(productToAdd));
     navigate("/cart");
+  };
+
+  const handleAddToCollections = () => {
+    const productToAdd = {
+      id: Watch.id,
+      name: Watch.name,
+      price: Watch.price,
+      image: mainImage,
+    };
+    dispatch(addToCollections(productToAdd));
   };
 
   return (
@@ -105,8 +116,11 @@ function DetailsHero() {
               >
                 ADD TO CART
               </button>
-              <button className="text-white text-xl bg-black hover:bg-gray-800 cursor-pointer border-2 rounded-md py-2 px-10">
-                BUY NOW{" "}
+              <button
+                onClick={handleAddToCollections}
+                className="text-white text-xl bg-black hover:bg-gray-800 cursor-pointer border-2 rounded-md py-2 px-10"
+              >
+                COLLECTIONS
               </button>
             </div>
 

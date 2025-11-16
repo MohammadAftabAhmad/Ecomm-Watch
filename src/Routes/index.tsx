@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import App from "../App";
+import Collections from "../pages/collections/Collections";
 
 // Lazy load the components
 const HomePage = lazy(() => import("../pages/Home/HomePage"));
@@ -60,6 +61,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense fallback={<div>Loading...</div>}>
             <Cart />
+          </Suspense>
+        ),
+      },
+      {
+        path: "collections",
+        element: (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Collections />
           </Suspense>
         ),
       },

@@ -93,8 +93,12 @@ function WatchCards() {
       <div className="relative">
         <h1 className="text-center font-bold text-4xl mt-10">Best Sellers</h1>
         <div className="text-center flex items-center justify-center gap-10 mt-3">
-          <button onClick={() => dispatch(setCategoryAction("men"))}>MEN</button>
-          <button onClick={() => dispatch(setCategoryAction("women"))}>WOMEN</button>
+          <button onClick={() => dispatch(setCategoryAction("men"))}>
+            MEN
+          </button>
+          <button onClick={() => dispatch(setCategoryAction("women"))}>
+            WOMEN
+          </button>
         </div>
 
         {/* Scroll Buttons */}

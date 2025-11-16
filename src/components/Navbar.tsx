@@ -158,7 +158,7 @@ function Navbar() {
             <Link to="/women">Women</Link>{" "}
           </li>
           <li className="p-2 hover:cursor-pointer">
-            <Link to="/">Collections</Link>{" "}
+            <Link to="/collections">Collections</Link>{" "}
           </li>
         </ul>
       </nav>
